@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="main-nav">
+    <a class="logo" href="index.html"><img src="images/web-logo.png" alt="" width="10%"></a>
+
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="aboutme.html">ABOUT ME</a></li>
+      <li><a href="services.html">SERVICES</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+
+  </nav>
+
+  <main>
+    <h3>Welcome to my Portfolio</h3>
+    <p>Explore my curated portfolio, a visual journey through a diverse range of projects that showcase my dedication to creativity and attention to detail. Each piece tells a story, and collectively, they embody my commitment to delivering design excellence.</p>
+<!--shows here some highlighs-->
+
+<br>
+<!--Slideshow-->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/postcard1.png" style="width:50%">
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/postcard2.png" style="width:50%">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/postcard3.png" style="width:50%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+
+    <div>
+      <div class="graphic-design">
+        <a href="portfolio/graphicdesign/graphicdesign.html">Graphic Designs</a>
+      </div>
+
+      <div class="illustrations">
+        <a href="portfolio/illustrations/illustrations.html"> Illustrations</a>
+      </div>
+
+      <div class="photography">
+        <a href="portfolio/photography/photography.html">Photography</a>
+      </div>
+
+      <div class="webdesign">
+        <a href="portfolio/webdesign/webdesign.html">Web Designs</a>
+      </div>
+    </div>
+  </main>
+  <!--p center align -->
+  <footer>
+    <a class="footer-logo" href="index.html"><img src="images/web-logo.png" alt="" width="5%"></a>
+  <p>©Divina Caraballe</p>
+  <p>2023</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
